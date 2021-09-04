@@ -24,6 +24,10 @@
         "rootDir": "./src",
         "baseUrl": "./src"
     },
+    "paths": {
+        // Allow `@/` to map to `src/components/`
+        "@/*": ["./src/components/*"],
+    },
     "include": [
         "src"
     ],

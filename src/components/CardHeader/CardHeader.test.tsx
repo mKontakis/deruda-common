@@ -13,7 +13,6 @@ describe('<CardHeader />', () => {
             className: ""
         }
 
-
         const component = render(<CardHeader {...props}>
             <p>R</p>
         </CardHeader>)
