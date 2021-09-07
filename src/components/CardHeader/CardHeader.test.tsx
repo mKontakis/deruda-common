@@ -10,7 +10,8 @@ describe('<CardHeader />', () => {
     it('renders the CardHeader component', () => {
 
         const props: CardHeaderProps = {
-            className: ""
+            className: "",
+            color: "warning"
         }
 
         const component = render(<CardHeader {...props}>
