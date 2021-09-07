@@ -1,6 +1,7 @@
 import {
     blackColor,
-    dangerColor, grayColor,
+    dangerColor,
+    grayColor,
     infoColor,
     primaryColor,
     roseColor,
@@ -8,6 +9,7 @@ import {
     warningColor,
     whiteColor
 } from "./colors";
+
 import {hexToRgb} from "@material-ui/core/styles";
 
 const boxShadow = {

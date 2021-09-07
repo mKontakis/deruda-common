@@ -9,7 +9,7 @@ const styles = createStyles(GridContainerStyles)
 
 const useStyles = makeStyles(styles)
 
-const GridContainer = ({children, className, ...rest}: GridContainerProps) => {
+const GridContainer = ({children, className = "", ...rest}: GridContainerProps) => {
 
   const classes = useStyles()
   return (
